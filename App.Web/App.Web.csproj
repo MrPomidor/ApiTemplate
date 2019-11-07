@@ -1,8 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,7 +34,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\App.Accounts\App.Accounts.csproj" />
     <ProjectReference Include="..\App.Common\App.Common.csproj" />
+    <ProjectReference Include="..\App.Payments\App.Payments.csproj" />
+    <ProjectReference Include="..\App.Customers\App.Customers.csproj" />
+    <ProjectReference Include="..\App.Goods\App.Goods.csproj" />
     <ProjectReference Include="..\App.TestModule\App.Example.csproj" />
   </ItemGroup>
 
