@@ -1,0 +1,5 @@
+{
+  "GoodsNotFound": "Gut wurde nicht gefunden",
+  "InvalidOrder": "Ungültiger vorgang zum erstellen einer bestellung",
+  "UnhandeledException": "Eine nicht behandelte Ausnahme ist aufgetreten!"
+}

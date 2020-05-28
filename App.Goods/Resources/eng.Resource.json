@@ -1,0 +1,5 @@
+{
+  "GoodsNotFound": "Good was not found",
+  "InvalidOrder": "Invalid order creation operation",
+  "UnhandeledException": "Unhandled exception occurred !"
+}
